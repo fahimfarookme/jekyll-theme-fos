@@ -2,6 +2,9 @@
 
 A [Tufte](https://www.edwardtufte.com/tufte/) inspired, carefully crafted theme with a focus on simplicity.
 
+## Sites which use this theme
+- [www.fahimfarook.me/](https://www.fahimfarook.me/)
+
 
 ## Installation
 
