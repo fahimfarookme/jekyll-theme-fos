@@ -1,0 +1,15 @@
+<div class="fos-navigation container-fluid d-flex justify-items-center align-items-center p-0 m-0">
+  {%- include menu-icon.html -%}
+
+  <div class="container">
+    <div class="row">
+      {%- if site.data.navigation -%}
+      <nav class="col-12 col-md-4 d-flex flex-row flex-md-column flex-wrap align-items-start justify-content-center">
+        {%- for nav in site.data.navigation -%}
+        <a href="{{- nav[1] -}}">{{- nav[0] -}}</a>
+        {%- endfor -%}
+      </nav>
+      {%- endif -%}
+    </div>
+  </div>
+</div>
