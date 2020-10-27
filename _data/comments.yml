@@ -1,4 +1,4 @@
 disqus:
-  site: "Fahims-blog-about-software"
+  site: "disqus-sub-domain"
   show-count: true
   

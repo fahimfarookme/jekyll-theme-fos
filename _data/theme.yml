@@ -1,6 +1,6 @@
 font:
   href:
-    - "/css/fonts.css"
+    - "/assets/css/fonts.css"
   brand: "'Helvetica Neue', Helvetica, sans-serif"
   header: "et-book" 
   body: "et-book"

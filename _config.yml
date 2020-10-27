@@ -1,0 +1,47 @@
+# url settings
+url: "www.yoursite.com"
+baseurl: "" # the subpath of your site, e.g. /blog
+
+# site details
+author: &author Your Name
+title: "Your Title"
+description: "Your Tagline" 
+image: &image "/img/avatar.png"
+language: en-us
+
+# defauls
+defaults:
+  - scope:
+      path: ""
+      type: "posts"
+    values:
+      layout: "post"
+      comments: true
+      page-share: true
+  - scope:
+      path: ""
+    values:
+      layout: "page"
+      author: *author
+      image: *image
+
+# build settings
+theme: jekyll-theme-fos
+markdown: kramdown
+plugins:
+  - jekyll-feed
+  - jekyll-paginate
+  - jekyll-sitemap
+  - jekyll-remote-theme
+
+# excludes
+exclude:
+  - CHANGELOG.md
+  - CNAME
+  - Gemfile
+  - Gemfile.lock
+  - LICENSE
+  - README.md
+
+# number of post previews index.html
+paginate: 3

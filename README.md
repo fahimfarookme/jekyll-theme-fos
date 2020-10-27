@@ -1,10 +1,6 @@
 # jekyll-theme-fos
 
-Welcome to your new Jekyll theme! In this directory, you'll find the files you need to be able to package up your theme into a gem. Put your layouts in `_layouts`, your includes in `_includes`, your sass files in `_sass` and any other assets in `assets`.
-
-To experiment with this code, add some sample content and run `bundle exec jekyll serve` – this directory is setup just like a Jekyll site!
-
-TODO: Delete this and the text above, and describe your gem
+A [Tufte](https://www.edwardtufte.com/tufte/) inspired, carefully crafted theme with a focus on simplicity.
 
 
 ## Installation
@@ -29,9 +25,27 @@ Or install it yourself as:
 
     $ gem install jekyll-theme-fos
 
+## Configurations
+See the following example configuration files.
+- [_config.yml](_config.yml)
+- [_data/analytics.yml](_data/analytics.yml)
+- [_data/comments.yml](_data/comments.yml)
+- [_data/navigation.yml](_data/navigation.yml)
+- [_data/posts.yml](_data/posts.yml)
+- [_data/social-networks.yml](_data/social-networks.yml)
+- [_data/theme.yml](_data/theme.yml)
+
 ## Usage
 
-TODO: Write usage instructions here. Describe your available layouts, includes, sass and/or assets.
+This theme has a couple of layouts - `post`, and `page`. `post` layout is what you use for blog posts and pages such as index.html, about.html etc. are based on `page` layout.
+
+Copy sample index, about, 404 and post pages from sample directory:
+- [index.html](samples/index.html)
+- [about.md](samples/about.md)
+- [atom.xml](samples/atom.xml)
+- [tags.html](samples/tags.html)
+- [404.html](samples/404.html)
+- [CNAME](samples/CNAME)
 
 ## Contributing
 

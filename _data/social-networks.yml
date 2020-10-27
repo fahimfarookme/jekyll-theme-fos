@@ -1,33 +1,33 @@
 email:
   title: Email
   icon: "fi fi-email"
-  url: "mailto:fahim@fahimfarook.me"
-  username: "fahim@fahimfarook.me"
+  url: "mailto:you@yourdomain.me"
+  username: "you@yourdomain.me"
 
 github:
   title: "GitHub"
   icon: "fi fi-github"
-  url: "https://github.com/fahimfarookme"
-  username: "fahimfarookme"
+  url: "https://github.com/your-handle"
+  username: "your-handle"
 
 stackoverflow:
   title: "StackOverflow"
   icon: "fi fi-stack-overflow"
-  url: "https://stackoverflow.com/users/2663572/fahim-farook"
-  username: "fahimfarookme"
+  url: "https://stackoverflow.com/users/your-id/your-handle"
+  username: "your-handle"
 
 linkedin:
   title: "LinkedIn"
   icon: "fi fi-linkedin"
-  url: "https://linkedin.com/in/fahimfarookme"
-  username: "fahimfarookme"
+  url: "https://linkedin.com/in/your-handle"
+  username: "your-handle"
   share-url: "https://www.linkedin.com/shareArticle?mini=true&url="
 
 twitter:
   title: "Twitter"
   icon: "fi fi-twitter"
-  url: "https://twitter.com/fahimfarookme"
-  username: "fahimfarookme"
+  url: "https://twitter.com/your-handle"
+  username: "your-handle"
   share-url: "https://twitter.com/intent/tweet?text="
 
 google-plus:

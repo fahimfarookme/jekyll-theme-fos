@@ -1,7 +1,7 @@
 "use strict";
 
 /**
- * Golbal namespace for Fahim on Software.
+ * Golbal namespace for FOS.
  */
 if (typeof FOS === "undefined") {
     var FOS = {};
@@ -72,15 +72,7 @@ if (typeof FOS === "undefined") {
  */
 (function(_fos){
 
-    var message = 
-            "______    _     _                           _____        __ _                          " +
-            "\n|  ___|  | |   (_)                         /  ___|      / _| |                         " +
-            "\n| |_ __ _| |__  _ _ __ ___     ___  _ __   \\ `--.  ___ | |_| |___      ____ _ _ __ ___ " +
-            "\n|  _/ _` | '_ \\| | '_ ` _ \\   / _ \\| '_ \\   `--. \\/ _ \\|  _| __\\ \\ /\\ / / _` | '__/ _ \\" +
-            "\n| || (_| | | | | | | | | | | | (_) | | | | /\\__/ / (_) | | | |_ \\ V  V / (_| | | |  __/" +
-            "\n\\_| \\__,_|_| |_|_|_| |_| |_|  \\___/|_| |_| \\____/ \\___/|_|  \\__| \\_/\\_/ \\__,_|_|  \\___|" +
-            "\n                                                                                       " +
-            "\n\n\nA bug or a suggestion? fahim@fahimfarook.me please.";
+    var message = "A bug or a suggestion? fahim@fahimfarook.me please.";
 
     _fos.log = function () {
         if (!console || !console.info) {
